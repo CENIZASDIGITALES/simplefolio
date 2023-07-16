@@ -1,4 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@font-face {
+  font-family: 'neuropol';
+  src: url('font/neuropol.otf') format('truetype');
+  /* Add additional font formats and variations as needed */
+
+ font-family: 'ledlight';
+  src: url('font/LEDLIGHT.otf') format('truetype');
+}
+
+
+
 
 h1 {
   font-weight: 700;
@@ -6,7 +16,7 @@ h1 {
 
 p,
 a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "neuropol";
   font-size: $default-font-size;
 }
 
